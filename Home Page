@@ -1,0 +1,1496 @@
+---
+category:
+  shop_by_price: true   
+  products:
+    limit: { { theme_settings.categorypage_products_per_page } }
+products:
+  new:
+    limit: { { theme_settings.homepage_new_products_count } }
+  featured:
+    limit: { { theme_settings.homepage_featured_products_count } }
+  top_sellers:
+    limit: { { theme_settings.homepage_top_products_count } }
+carousel: { { theme_settings.homepage_show_carousel } }
+blog:
+  recent_posts:
+    limit: 10
+    summary: 160
+---
+
+{{#partial "hero"}} {{#if carousel}} {{> components/carousel
+arrows=theme_settings.homepage_show_carousel_arrows}} {{/if}} {{{region
+name="home_below_carousel"}}} {{/partial}} {{#partial "page"}} {{#each
+shipping_messages}} {{> components/common/alert-info message}} {{/each}}
+<div class="main full">
+  {{#if theme_settings.halo_homepage_layout_1}} {{>
+  components/halothemes/home/home-icon-with-text}} {{{region
+  name="home_top_brands"}}} {{{region name="home_top_banners"}}} {{{region
+  name="home2_top_banners"}}} {{#if theme_settings.home_product_block_tab '=='
+  'Featured'}} {{> components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=featured" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{else if
+  theme_settings.home_product_block_tab '==' 'New'}} {{>
+  components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=newest" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{else if
+  theme_settings.home_product_block_tab '==' 'Top'}} {{>
+  components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=bestselling" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{/if}} {{>
+  components/halothemes/home/halo-special-product
+  title=theme_settings.home_product_block_special-title
+  desc=theme_settings.home_product_block_special-text
+  id=theme_settings.home_product_block_special-id}} {{{region
+  name="home_middle_banners"}}} {{#if theme_settings.home_product_block '=='
+  'Featured'}} {{> components/products/featured products=products.featured
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'New'}} {{> components/products/new products=products.new
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'Top'}} {{> components/products/top products=products.top_sellers
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'Special'}} {{> components/halothemes/halo-product-by-category
+  cateid=theme_settings.home_product_block_id productsnew=products.new}} {{/if}}
+
+
+
+
+<div class="halo-block halo-block-product halo-block-product-banners2 home2-flash-deals padding-top-30 padding-bottom-30" data-category-with-banner-id="125" data-category-with-banner-url="/tables/tables-by-industry-view-all/" id="product-with-banner-125">
+ 
+    <div class="halo-block-header">
+            <div class="halo-block-header--left">
+              <h2 class="title"><span>Flash Deals</span></h2>
+              <div class="countDowntimer product-count-down" data-count-down="Dec 31, 2024 18:00:00"><div class="clock-item"><span class="num">63</span><span class="text">d</span></div><div class="clock-item"><span class="num">0:</span></div><div class="clock-item"><span class="num">23:</span></div><div class="clock-item"><span class="num">18</span></div></div>
+      </div>
+      <div class="halo-block-header--right">
+        <a href="/tables/tables-by-industry-view-all/"><span>View All</span></a>
+      </div>
+        </div>
+        <div class="productCarousel slick-initialized slick-slider slick-dotted">    
+
+
+
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1056px; transform: translate3d(0px, 0px, 0px);"><div class="productCarousel-slide slick-slide slick-current slick-active" style="width: 264px;" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide60" aria-describedby="slick-slide-control60">
+<article class="card" data-product-id="382" data-test="card-382" data-event-type="list" data-entity-id="382" data-position="1" data-name="Round Poseur Table (ex Paris Olympics) " data-product-category="
+  Tables,
+      Tables/Round Tables - view all,
+      Tables/Tables by Industry  - view all,
+      Tables/Tables by Industry  - view all/Banquet Tables,
+      Tables/Tables by Industry  - view all/Cafe Tables,
+      Tables/Tables by Industry  - view all/Garden Tables,
+      Used Items,
+      Special Offers,
+      Special Offers/Clearance
+" data-product-brand="" data-product-price="
+  44.99
+">
+<figure class="card-figure">
+  <div class="halo-badges halo-badges-left">
+  </div>
+<a href="/round-poseur-table-ex-paris-olympics/" class="card-link" data-event-type="product-click" tabindex="0">
+  <div class="card-img-container">
+          <img src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/290x360/products/382/2083/mange-debout__79108.1720514595.jpg?c=2" alt="Round Poseur Table (ex Paris Olympics)" title="Round Poseur Table (ex Paris Olympics)" data-sizes="auto" srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 2560w" data-srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/382/2083/mange-debout__79108.1720514595.jpg?c=2 2560w" class="card-image lazyautosizes ls-is-cached lazyloaded" sizes="234px">
+  </div>
+</a>
+<div class="card-quickview-button">
+          <a class="card-quickview card-figure-button" href="#" data-event-type="product-click" data-product-id="382" tabindex="0">Quick view</a>
+</div>
+</figure>
+<div class="card-body">
+<div class="card-body-content">
+  <h3 class="card-title">
+          <a href="/round-poseur-table-ex-paris-olympics/" class="card-ellipsis" data-event-type="product-click" style="-webkit-box-orient: vertical;" tabindex="0">
+              <span>Round Poseur Table (ex Paris Olympics) </span>
+          </a>
+  </h3>
+      <p class="card-rating" data-test-info-type="productRating">
+          <span class="rating--small">
+              <span role="img" aria-label="Product rating is 0 of 5">
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+</span>
+          </span>
+      </p>
+  <div class="card-price" data-test-info-type="price">
+          
+<div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+  
+  <span data-product-rrp-price-without-tax="" class="price price--rrp"> 
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
+  
+  <span data-product-non-sale-price-without-tax="" class="price price--non-sale">
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax">
+  <span class="price-label">
+      
+  </span>
+  <span class="price-now-label" style="display: none;">
+      
+  </span>
+  <span data-product-price-without-tax="" class="price price--withoutTax" data-value-price="£44.99">£44.99</span>
+</div>
+  </div>
+      
+</div>
+<div class="card-body-button">
+      <a href="/wishlist.php?action=add&amp;product_id=382" class="card-wishlist" aria-label="ada.add_wishlist" tabindex="0">
+          <span class="text">Add to Wishlist</span>
+          <svg class="icon" aria-hidden="true"><use xlink:href="#icon-heart"></use></svg>
+      </a>
+              <a href="/cart.php?action=add&amp;product_id=382" class="card-action halo-add-to-cart" data-product-id="382" data-wait-message="Adding to cart…" tabindex="0">
+                  <span>Add to Cart</span>
+              </a>
+</div>
+</div>
+</article>
+</div><div class="productCarousel-slide slick-slide slick-active" style="width: 264px;" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide61" aria-describedby="slick-slide-control61">
+<article class="card" data-product-id="381" data-test="card-381" data-event-type="list" data-entity-id="381" data-position="2" data-name="4ft Folding Plastic Round Table (ex Paris Olympics)" data-product-category="
+  Tables,
+      Tables/Round Tables - view all,
+      Tables/Round Tables - view all/Plastic Round Tables,
+      Tables/Plastic Folding Tables - view all,
+      Tables/Plastic Folding Tables - view all/Round Plastic Tables,
+      Tables/Other Tables - view all ,
+      Tables/Other Tables - view all /Plastic Bistro Table,
+      Tables/Tables by Industry  - view all,
+      Tables/Tables by Industry  - view all/Banquet Tables,
+      Tables/Tables by Industry  - view all/Cafe Tables,
+      Tables/Tables by Industry  - view all/Garden Tables,
+      Tables/Tables by Industry  - view all/School Tables,
+      Used Items,
+      Special Offers,
+      Special Offers/Clearance
+" data-product-brand="" data-product-price="
+  54.99
+">
+<figure class="card-figure">
+  <div class="halo-badges halo-badges-left">
+  </div>
+<a href="/4ft-folding-plastic-round-table-ex-paris-olympics/" class="card-link" data-event-type="product-click" tabindex="0">
+  <div class="card-img-container">
+          <img src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/290x360/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2" alt="4ft Folding Plastic Round Table" title="4ft Folding Plastic Round Table" data-sizes="auto" srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 2560w" data-srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/381/2081/table-ronde-pliable__36705.1720514041.jpg?c=2 2560w" class="card-image lazyautosizes ls-is-cached lazyloaded" sizes="234px">
+  </div>
+</a>
+<div class="card-quickview-button">
+          <a class="card-quickview card-figure-button" href="#" data-event-type="product-click" data-product-id="381" tabindex="0">Quick view</a>
+</div>
+</figure>
+<div class="card-body">
+<div class="card-body-content">
+  <h3 class="card-title">
+          <a href="/4ft-folding-plastic-round-table-ex-paris-olympics/" class="card-ellipsis" data-event-type="product-click" style="-webkit-box-orient: vertical;" tabindex="0">
+              <span>4ft Folding Plastic Round Table (ex Paris Olympics)</span>
+          </a>
+  </h3>
+      <p class="card-rating" data-test-info-type="productRating">
+          <span class="rating--small">
+              <span role="img" aria-label="Product rating is 0 of 5">
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+</span>
+          </span>
+      </p>
+  <div class="card-price" data-test-info-type="price">
+          
+<div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+  
+  <span data-product-rrp-price-without-tax="" class="price price--rrp"> 
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
+  
+  <span data-product-non-sale-price-without-tax="" class="price price--non-sale">
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax">
+  <span class="price-label">
+      
+  </span>
+  <span class="price-now-label" style="display: none;">
+      
+  </span>
+  <span data-product-price-without-tax="" class="price price--withoutTax" data-value-price="£54.99">£54.99</span>
+</div>
+  </div>
+      
+</div>
+<div class="card-body-button">
+      <a href="/wishlist.php?action=add&amp;product_id=381" class="card-wishlist" aria-label="ada.add_wishlist" tabindex="0">
+          <span class="text">Add to Wishlist</span>
+          <svg class="icon" aria-hidden="true"><use xlink:href="#icon-heart"></use></svg>
+      </a>
+              <a href="/cart.php?action=add&amp;product_id=381" class="card-action halo-add-to-cart" data-product-id="381" data-wait-message="Adding to cart…" tabindex="0">
+                  <span>Add to Cart</span>
+              </a>
+</div>
+</div>
+</article>
+</div><div class="productCarousel-slide slick-slide slick-active" style="width: 264px;" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide62" aria-describedby="slick-slide-control62">
+<article class="card" data-product-id="380" data-test="card-380" data-event-type="list" data-entity-id="380" data-position="3" data-name="6ft Folding Plastic Trestle Table (ex Paris Olympics) " data-product-category="
+  Tables,
+      Tables/Plastic Folding Tables - view all,
+      Tables/Plastic Folding Tables - view all/Plastic Trestle Tables,
+      Tables/Tables by Industry  - view all,
+      Tables/Tables by Industry  - view all/Banquet Tables,
+      Tables/Tables by Industry  - view all/Cafe Tables,
+      Tables/Tables by Industry  - view all/Garden Tables,
+      Tables/Tables by Industry  - view all/School Tables,
+      Used Items,
+      Special Offers,
+      Special Offers/Clearance
+" data-product-brand="" data-product-price="
+  44.99
+">
+<figure class="card-figure">
+  <div class="halo-badges halo-badges-left">
+  </div>
+<a href="/6ft-folding-plastic-trestle-table-ex-paris-olympics/" class="card-link" data-event-type="product-click" tabindex="0">
+  <div class="card-img-container">
+          <img src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/290x360/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2" alt="6ft Folding Plastic Trestle Table (ex Paris Olympics)" title="6ft Folding Plastic Trestle Table (ex Paris Olympics)" data-sizes="auto" srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 2560w" data-srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/380/2080/table-blanc-plable__49798.1720512933.jpg?c=2 2560w" class="card-image lazyautosizes ls-is-cached lazyloaded" sizes="234px">
+  </div>
+</a>
+<div class="card-quickview-button">
+          <a class="card-quickview card-figure-button" href="#" data-event-type="product-click" data-product-id="380" tabindex="0">Quick view</a>
+</div>
+</figure>
+<div class="card-body">
+<div class="card-body-content">
+  <h3 class="card-title">
+          <a href="/6ft-folding-plastic-trestle-table-ex-paris-olympics/" class="card-ellipsis" data-event-type="product-click" style="-webkit-box-orient: vertical;" tabindex="0">
+              <span>6ft Folding Plastic Trestle Table (ex Paris Olympics) </span>
+          </a>
+  </h3>
+      <p class="card-rating" data-test-info-type="productRating">
+          <span class="rating--small">
+              <span role="img" aria-label="Product rating is 0 of 5">
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+</span>
+          </span>
+      </p>
+  <div class="card-price" data-test-info-type="price">
+          
+<div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+  
+  <span data-product-rrp-price-without-tax="" class="price price--rrp"> 
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
+  
+  <span data-product-non-sale-price-without-tax="" class="price price--non-sale">
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax">
+  <span class="price-label">
+      
+  </span>
+  <span class="price-now-label" style="display: none;">
+      
+  </span>
+  <span data-product-price-without-tax="" class="price price--withoutTax" data-value-price="£44.99">£44.99</span>
+</div>
+  </div>
+      
+</div>
+<div class="card-body-button">
+      <a href="/wishlist.php?action=add&amp;product_id=380" class="card-wishlist" aria-label="ada.add_wishlist" tabindex="0">
+          <span class="text">Add to Wishlist</span>
+          <svg class="icon" aria-hidden="true"><use xlink:href="#icon-heart"></use></svg>
+      </a>
+              <a href="/cart.php?action=add&amp;product_id=380" class="card-action halo-add-to-cart" data-product-id="380" data-wait-message="Adding to cart…" tabindex="0">
+                  <span>Add to Cart</span>
+              </a>
+</div>
+</div>
+</article>
+</div><div class="productCarousel-slide slick-slide slick-active" style="width: 264px;" data-slick-index="3" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide63" aria-describedby="slick-slide-control63">
+<article class="card card-hover" data-product-id="379" data-test="card-379" data-event-type="list" data-entity-id="379" data-position="4" data-name="5ft Folding Plastic Trestle Table (ex Paris Olympics) " data-product-category="
+  Tables,
+      Tables/Plastic Folding Tables - view all,
+      Tables/Plastic Folding Tables - view all/Plastic Trestle Tables,
+      Tables/Tables by Industry  - view all,
+      Tables/Tables by Industry  - view all/Banquet Tables,
+      Tables/Tables by Industry  - view all/Cafe Tables,
+      Tables/Tables by Industry  - view all/Garden Tables,
+      Tables/Tables by Industry  - view all/School Tables,
+      Used Items,
+      Special Offers,
+      Special Offers/Clearance
+" data-product-brand="" data-product-price="
+  29.99
+">
+<figure class="card-figure">
+  <div class="halo-badges halo-badges-left">
+  </div>
+<a href="/5ft-folding-plastic-trestle-table-ex-paris-olympics/" class="card-link" data-event-type="product-click" tabindex="0">
+  <div class="card-img-container">
+          <img src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/290x360/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2" alt="5ft Folding Plastic Trestle Table (ex Paris Olympics) " title="5ft Folding Plastic Trestle Table (ex Paris Olympics) " data-sizes="auto" srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 2560w" data-srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/379/2078/table-rectangle-pliable-2__53026.1720512274.jpg?c=2 2560w" class="card-image lazyautosizes ls-is-cached lazyloaded" sizes="234px">
+                      <span class="card-image-2">
+                          <img src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/290x360/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2" alt="5ft Folding Plastic Trestle Table (ex Paris Olympics) -  Side" title="5ft Folding Plastic Trestle Table (ex Paris Olympics) -  Side" data-sizes="auto" srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 2560w" data-srcset="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/80w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 80w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/160w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 160w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/320w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 320w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/640w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 640w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/960w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 960w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1280w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 1280w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/1920w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 1920w, https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/2560w/products/379/2079/table-rectangle-pliable-1__81296.1720512288.jpg?c=2 2560w" class="lazyautosizes ls-is-cached lazyloaded" sizes="234px">
+                      </span>
+  </div>
+</a>
+<div class="card-quickview-button">
+          <a class="card-quickview card-figure-button" href="#" data-event-type="product-click" data-product-id="379" tabindex="0">Quick view</a>
+</div>
+</figure>
+<div class="card-body">
+<div class="card-body-content">
+  <h3 class="card-title">
+          <a href="/5ft-folding-plastic-trestle-table-ex-paris-olympics/" class="card-ellipsis" data-event-type="product-click" style="-webkit-box-orient: vertical;" tabindex="0">
+              <span>5ft Folding Plastic Trestle Table (ex Paris Olympics) </span>
+          </a>
+  </h3>
+      <p class="card-rating" data-test-info-type="productRating">
+          <span class="rating--small">
+              <span role="img" aria-label="Product rating is 0 of 5">
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+  <span class="icon icon--ratingEmpty">
+      <svg aria-hidden="true">
+          <use xlink:href="#icon-star"></use>
+      </svg>
+  </span>
+</span>
+          </span>
+      </p>
+  <div class="card-price" data-test-info-type="price">
+          
+<div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+  
+  <span data-product-rrp-price-without-tax="" class="price price--rrp"> 
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
+  
+  <span data-product-non-sale-price-without-tax="" class="price price--non-sale">
+      
+  </span>
+</div>
+<div class="price-section price-section--withoutTax">
+  <span class="price-label">
+      
+  </span>
+  <span class="price-now-label" style="display: none;">
+      
+  </span>
+  <span data-product-price-without-tax="" class="price price--withoutTax" data-value-price="£29.99">£29.99</span>
+</div>
+  </div>
+      
+</div>
+<div class="card-body-button">
+      <a href="/wishlist.php?action=add&amp;product_id=379" class="card-wishlist" aria-label="ada.add_wishlist" tabindex="0">
+          <span class="text">Add to Wishlist</span>
+          <svg class="icon" aria-hidden="true"><use xlink:href="#icon-heart"></use></svg>
+      </a>
+              <a href="/cart.php?action=add&amp;product_id=379" class="card-action halo-add-to-cart" data-product-id="379" data-wait-message="Adding to cart…" tabindex="0">
+                  <span>Add to Cart</span>
+              </a>
+</div>
+</div>
+</article>
+</div></div></div><ul class="slick-dots" role="tablist"></ul></div>
+  </div> -->
+</div>
+
+
+
+
+  <style>
+    .argento-grid {
+      display: flex;
+    }
+   .padding-bottom-30{
+   padding-bottom:unset !important;
+    }
+
+.self-center{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.heroCarousel .slick-arrow {
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    @media (max-width: 480px) {
+      .heroCarousel .slick-arrow {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+
+
+.title-right-side-div {
+      color: #274b4f;
+      padding: 1rem;
+      background-color: #e3eff3;
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  </style>
+
+<div id="halo_middle_parralax_banners" class="halo-marketing-banners pt-20">
+  <div class="halo-block halo-banners-3 padding-top-0 padding-bottom-0">
+    <div class="container">
+        <div class="halo-banner-parallax">
+            <div class="image-wrapper">
+                <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/new-banner-1570-x-620-2.png?t=1730893550"  alt="Our Services" title="Our Services">
+                <img class="image-mobile lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/new-baner.jpg?t=1731080609"  alt="Our Services" title="Our Services">
+
+                <!-- <img class="image-mobile lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-34p0m70zgu/product_images/uploaded_images/home-middle-banner-mobile.jpg"  alt="Our Services" title="Our Services"> -->
+                <div class="white-banner" data-parallax="{&quot;x&quot;: -150 , &quot;smoothness&quot;: 50}">&nbsp;</div>
+            </div>
+            <div class="content-wrapper">
+                <span class="subtitle">Special Offers</span>
+                <h2 class="title heading-with-line"><span>Exclusive Offers on <br/> Premium Furniture </span></h2>
+                <div class="desc">Upgrade your space with unbeatable discounts on high-quality furniture at Front Row Furniture. Explore our wide range of special offers, featuring stylish, durable pieces perfect for any setting. From versatile seating to robust tables, you’ll find furniture that combines functionality with modern design—all at exceptional prices. Don’t miss out on these limited-time deals to refresh your space without breaking the bank!</div>
+                <div class="self-sm-child-center">
+                  <a class="button self-btn-blue" href="https://www.frontrowfurniture.co.uk/special-offers/">
+                    <span>Shop Now</span>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+  
+  <div id="halo_short_faqs" class="halo-marketing-banners">
+    <div class="halo-block halo-faqs-block padding-top-40 padding-bottom-40">
+      <div class="container">
+        <div class="halo-short-faqs">
+          <div class="short-faqs-left">
+            <div class="content-wrapper">
+              <h3 class="title p-7 self-center-sm" style="background-color: #e3eff3;">Who are we? What do we do?</h3>
+              <span
+                class="subtitle-1"
+                style="font-size: 1rem; font-style: italic; color: #5a5a5a"
+                >At Front Row Furniture, we specialize in providing high-quality
+                seating solutions for various industries, including hospitality,
+                education, and events.</span
+              >
+              <div class="desc">
+                <span
+                  >We at Front Row Furniture pride ourselves on supplying high
+                  quality contract furniture to the events and hospitality
+                  industry. We are one of the fastest growing contract furniture
+                  suppliers in the UK, holding tens of thousands of items in
+                  stock. This allows us to offer highly competitive pricing,
+                  rapid delivery from our distribution centres and a range of
+                  products to suit all requirements. We also offer bespoke
+                  solutions for special orders and can source just about any
+                  furniture item outside our range, if required!</span
+                >
+              </div>
+
+              <h4 class="name"></h4>
+              <span class="company"></span>
+            </div>
+          </div>
+          <div class="short-faqs-right">
+            <h3 class="title-right-side-div self-center-sm">FAQ's</h3>
+            <div class="faqs-paragraph">
+              <!-- <span class="subtitle">FAQ's</span> -->
+
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="faqs-1-title">
+                    <button
+                      class="title"
+                      data-toggle="collapse"
+                      data-target="#faqs-1-content"
+                      aria-expanded="true"
+                      aria-controls="faqs-1-content"
+                    >
+                      What are your opening hours?
+                    </button>
+                    <span class="icon-plus">&nbsp</span>
+                  </div>
+                  <div
+                    id="faqs-1-content"
+                    class="collapse"
+                    aria-labelledby="faqs-1-title"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Our sales office is open Monday to Friday, 9am to
+                        5.30pm. The warehouses are open for collections 8.30am
+                        to 5pm Monday to Friday. We are closed at the weekends.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqs-2-title">
+                    <button
+                      class="title"
+                      data-toggle="collapse"
+                      data-target="#faqs-2-content"
+                      aria-expanded="true"
+                      aria-controls="faqs-2-content"
+                    >
+                      Can I collect my purchase?
+                    </button>
+                    <span class="icon-plus">&nbsp</span>
+                  </div>
+                  <div
+                    id="faqs-2-content"
+                    class="collapse"
+                    aria-labelledby="faqs-2-title"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        We are very happy for you to collect in person, or to
+                        send in your own courier/haulier for a customer
+                        collection. Please advise the sales staff a date you
+                        wish to do this, noting the warehouse require 24 hours
+                        notice for picking and we will have it ready for you.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqs-3-title">
+                    <button
+                      class="title"
+                      data-toggle="collapse"
+                      data-target="#faqs-3-content"
+                      aria-expanded="true"
+                      aria-controls="faqs-3-content"
+                    >
+                      What methods of payment do you accept?
+                    </button>
+                    <span class="icon-plus">&nbsp</span>
+                  </div>
+                  <div
+                    id="faqs-3-content"
+                    class="collapse"
+                    aria-labelledby="faqs-3-title"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        We accept BACS transfer, PayPal, Credit or Debit card.
+                        When we send an invoice, there is a link to follow to
+                        make payment via our secure card payment page
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqs-4-title">
+                    <button
+                      class="title"
+                      data-toggle="collapse"
+                      data-target="#faqs-4-content"
+                      aria-expanded="true"
+                      aria-controls="faqs-4-content"
+                    >
+                      What delivery services to you offer?
+                    </button>
+                    <span class="icon-plus">&nbsp</span>
+                  </div>
+                  <div
+                    id="faqs-4-content"
+                    class="collapse"
+                    aria-labelledby="faqs-4-title"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        We have various forms of delivery services we use
+                        depending on the items ordered, customer location and
+                        the date the goods are required by. However, as a
+                        general rule, small to medium size orders tend to go out
+                        using our parcel courier or our pallet network. Medium
+                        to large orders tend to be delivered using either the
+                        pallet network or dedicated vehicles such as vans and
+                        HGV's
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqs-5-title">
+                    <button
+                      class="title"
+                      data-toggle="collapse"
+                      data-target="#faqs-5-content"
+                      aria-expanded="true"
+                      aria-controls="faqs-5-content"
+                    >
+                      Do you work with Trade?
+                    </button>
+                    <span class="icon-plus">&nbsp</span>
+                  </div>
+                  <div
+                    id="faqs-5-content"
+                    class="collapse"
+                    aria-labelledby="faqs-5-title"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Yes, we do a lot of business with trade customers. Some
+                        require us to drop ship to their customer using their
+                        branded delivery note, which we are happy to do. Please
+                        contact us for more details
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="faqs-paragraph-footer">
+                <a href="https://www.frontrowfurniture.co.uk/faqs/" class="link"
+                  ><span>View all </span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="halo_short_faqs" class="halo-marketing-banners">
+    <div class="halo-block halo-faqs-block padding-top-40 padding-bottom-40">
+      <div class="container">
+        <div class="halo-short-faqs">
+          <div class="short-faqs-left">
+            
+            <div class="content-wrapper">
+              <span class="subtitle">At Front Row Furniture, we specialize in providing high-quality seating solutions for various industries, including hospitality, education, and events.</span>
+              <h3 class="title">Who are we? What do we do?</h3>
+              <div class="desc">
+                <span>We at Front Row Furniture pride ourselves on supplying high quality contract furniture to the events and hospitality industry.  We are one of the fastest growing contract furniture suppliers in the UK, holding tens of thousands of items in stock. This allows us to offer highly competitive pricing, rapid delivery from our distribution centres and a range of products to suit all requirements.   We also offer bespoke solutions for special orders and can source just about any furniture item outside our range, if required!</span>
+              </div>
+              
+                      <h4 class="name"></h4>
+                      <span class="company"></span>
+            </div>
+          </div>
+          <div class="short-faqs-right">
+            <div class="faqs-paragraph">
+                <span class="subtitle">FAQ's</span>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="faqs-1-title">
+                            <button class="title" data-toggle="collapse" data-target="#faqs-1-content" aria-expanded="true" aria-controls="faqs-1-content">
+                                What are your opening hours?
+                            </button>
+                            <span class="icon-plus">&nbsp</span>
+                        </div>
+                        <div id="faqs-1-content" class="collapse" aria-labelledby="faqs-1-title" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Our sales office is open Monday to Friday, 9am to 5.30pm. The warehouses are open for collections 8.30am to 5pm Monday to Friday. We are closed at the weekends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqs-2-title">
+                            <button class="title" data-toggle="collapse" data-target="#faqs-2-content" aria-expanded="true" aria-controls="faqs-2-content">
+                                Can I collect my purchase?
+                            </button>
+                            <span class="icon-plus">&nbsp</span>
+                        </div>
+                        <div id="faqs-2-content" class="collapse" aria-labelledby="faqs-2-title" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>We are very happy for you to collect in person, or to send in your own courier/haulier for a customer collection. Please advise the sales staff a date you wish to do this, noting the warehouse require 24 hours notice for picking and we will have it ready for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqs-3-title">
+                            <button class="title" data-toggle="collapse" data-target="#faqs-3-content" aria-expanded="true" aria-controls="faqs-3-content">
+                                What methods of payment do you accept?
+                            </button>
+                            <span class="icon-plus">&nbsp</span>
+                        </div>
+                        <div id="faqs-3-content" class="collapse" aria-labelledby="faqs-3-title" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>We accept BACS transfer, PayPal, Credit or Debit card. When we send an invoice, there is a link to follow to make payment via our secure card payment page</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqs-4-title">
+                            <button class="title" data-toggle="collapse" data-target="#faqs-4-content" aria-expanded="true" aria-controls="faqs-4-content">
+                                What delivery services to you offer?
+                            </button>
+                            <span class="icon-plus">&nbsp</span>
+                        </div>
+                        <div id="faqs-4-content" class="collapse" aria-labelledby="faqs-4-title" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>We have various forms of delivery services we use depending on the items ordered, customer location and the date the goods are required by. However, as a general rule, small to medium size orders tend to go out using our parcel courier or our pallet network. Medium to large orders tend to be delivered using either the pallet network or dedicated vehicles such as vans and HGV's </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqs-5-title">
+                            <button class="title" data-toggle="collapse" data-target="#faqs-5-content" aria-expanded="true" aria-controls="faqs-5-content">
+                                Do you work with Trade?
+                            </button>
+                            <span class="icon-plus">&nbsp</span>
+                        </div>
+                        <div id="faqs-5-content" class="collapse" aria-labelledby="faqs-5-title" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Yes, we do a lot of business with trade customers. Some require us to drop ship to their customer using their branded delivery note, which we are happy to do. Please contact us for more details</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faqs-paragraph-footer">
+                            <a href="https://www.frontrowfurniture.co.uk/faqs/" class="link"><span>View all </span></a>
+                        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+  {{{region name="home_middle_banners_2"}}} {{>
+  components/halothemes/home/home-icon-with-text2}} {{{region
+  name="home_parallax_banners"}}} {{>
+  components/halothemes/halo-product-by-category-with-flash-deals
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_flash_deals_id
+  cateImg=theme_settings.home_product_block_with_flash_deals_img
+  cateImg2=theme_settings.home_product_block_with_flash_deals_img2
+  cateTitle=theme_settings.home_product_block_with_flash_deals_title
+  cateLink=theme_settings.home_product_block_with_flash_deals_link
+  cateLink2=theme_settings.home_product_block_with_flash_deals_link2
+  coutDown=theme_settings.home_product_block_with_flash_deals_count_down }} {{>
+  components/halothemes/halo-product-by-category-with-banner
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_1_id
+  cateImg=theme_settings.home_product_block_with_banner-1-img
+  cateTitle=theme_settings.home_product_block_with_banner-1-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-1-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-1-heading
+  cateText1=theme_settings.home_product_block_with_banner-1-text1
+  cateText2=theme_settings.home_product_block_with_banner-1-text2
+  cateBtn=theme_settings.home_product_block_with_banner-1-btntext
+  cateLink=theme_settings.home_product_block_with_banner-1-link }} {{>
+  components/halothemes/halo-product-by-category-with-banner
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_2_id
+  cateImg=theme_settings.home_product_block_with_banner-2-img
+  cateTitle=theme_settings.home_product_block_with_banner-2-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-2-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-2-heading
+  cateText1=theme_settings.home_product_block_with_banner-2-text1
+  cateText2=theme_settings.home_product_block_with_banner-2-text2
+  cateBtn=theme_settings.home_product_block_with_banner-2-btntext
+  cateLink=theme_settings.home_product_block_with_banner-2-link }} {{>
+  components/halothemes/halo-product-by-category-with-banner
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_3_id
+  cateImg=theme_settings.home_product_block_with_banner-3-img
+  cateTitle=theme_settings.home_product_block_with_banner-3-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-3-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-3-heading
+  cateText1=theme_settings.home_product_block_with_banner-3-text1
+  cateText2=theme_settings.home_product_block_with_banner-3-text2
+  cateBtn=theme_settings.home_product_block_with_banner-3-btntext
+  cateLink=theme_settings.home_product_block_with_banner-3-link }} {{{region
+  name="home_bottom_banners"}}} {{{region name="home_faqs_block"}}} {{{region
+  name="home2_bottom_banners"}}} {{>
+  components/halothemes/home/home-recent-posts post=blog.recent_posts}}
+  {{{region name="home_instagram1"}}} {{else if
+  theme_settings.halo_homepage_layout_2}} {{{region name="home_top_banners"}}}
+  {{{region name="home2_top_banners"}}} {{{region name="home_top_brands"}}} {{>
+  components/halothemes/halo-product-by-category-with-flash-deals
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_flash_deals_id
+  cateImg=theme_settings.home_product_block_with_flash_deals_img
+  cateImg2=theme_settings.home_product_block_with_flash_deals_img2
+  cateTitle=theme_settings.home_product_block_with_flash_deals_title
+  cateLink=theme_settings.home_product_block_with_flash_deals_link
+  cateLink2=theme_settings.home_product_block_with_flash_deals_link2
+  coutDown=theme_settings.home_product_block_with_flash_deals_count_down }} {{>
+  components/halothemes/halo-product-by-category-with-banner-2
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_1_id
+  cateImg=theme_settings.home_product_block_with_banner-1-img
+  cateTitle=theme_settings.home_product_block_with_banner-1-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-1-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-1-heading
+  cateText1=theme_settings.home_product_block_with_banner-1-text1
+  cateText2=theme_settings.home_product_block_with_banner-1-text2
+  cateBtn=theme_settings.home_product_block_with_banner-1-btntext
+  cateLink=theme_settings.home_product_block_with_banner-1-link }} {{>
+  components/halothemes/halo-product-by-category-with-banner-2
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_2_id
+  cateImg=theme_settings.home_product_block_with_banner-2-img
+  cateTitle=theme_settings.home_product_block_with_banner-2-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-2-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-2-heading
+  cateText1=theme_settings.home_product_block_with_banner-2-text1
+  cateText2=theme_settings.home_product_block_with_banner-2-text2
+  cateBtn=theme_settings.home_product_block_with_banner-2-btntext
+  cateLink=theme_settings.home_product_block_with_banner-2-link }} {{>
+  components/halothemes/halo-product-by-category-with-banner-2
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_banner_3_id
+  cateImg=theme_settings.home_product_block_with_banner-3-img
+  cateTitle=theme_settings.home_product_block_with_banner-3-title
+  cateSubHeading=theme_settings.home_product_block_with_banner-3-subheading
+  cateHeading=theme_settings.home_product_block_with_banner-3-heading
+  cateText1=theme_settings.home_product_block_with_banner-3-text1
+  cateText2=theme_settings.home_product_block_with_banner-3-text2
+  cateBtn=theme_settings.home_product_block_with_banner-3-btntext
+  cateLink=theme_settings.home_product_block_with_banner-3-link }} {{{region
+  name="home_middle_banners"}}} {{>
+  components/halothemes/home/home-icon-with-text2}} {{{region
+  name="home_parallax_banners"}}} {{#if theme_settings.home_product_block '=='
+  'Featured'}} {{> components/halothemes/home2-product-grid
+  products=products.featured productsnew=products.new
+  title=theme_settings.home_product_block-title block_id="halo-product-block-1"
+  productType="featured" listName="Featured Products"
+  columns=theme_settings.homepage_featured_products_column_count}} {{else if
+  theme_settings.home_product_block '==' 'New'}} {{>
+  components/halothemes/home2-product-grid products=products.new
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1" productType="newest" listName="New Products"
+  columns=theme_settings.homepage_new_products_column_count}} {{else if
+  theme_settings.home_product_block '==' 'Top'}} {{>
+  components/halothemes/home2-product-grid products=products.top_sellers
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1" productType="top_sellers" listName="Most
+  Popular Products" columns=theme_settings.homepage_top_products_column_count}}
+  {{else if theme_settings.home_product_block '==' 'Special'}} {{>
+  components/halothemes/halo-product-by-category
+  cateid=theme_settings.home_product_block_id productsnew=products.new}} {{/if}}
+  {{{region name="home_bottom_banners"}}} {{{region name="home_faqs_block"}}}
+  {{{region name="home2_bottom_banners"}}} {{>
+  components/halothemes/home/home-recent-posts post=blog.recent_posts}}
+  {{{region name="home_instagram"}}} {{>
+  components/halothemes/home/home-icon-with-text}} {{else if
+  theme_settings.halo_homepage_layout_3}} {{{region
+  name="featured_collections"}}} {{{region name="marquee"}}} {{>
+  components/halothemes/home/home-icon-with-text}} {{{region
+  name="collections_list"}}} {{>
+  components/halothemes/halo-product-by-category-with-flash-deals
+  productsnew=products.new
+  cateId=theme_settings.home_product_block_with_flash_deals_id
+  cateImg=theme_settings.home_product_block_with_flash_deals_img
+  cateImg2=theme_settings.home_product_block_with_flash_deals_img2
+  cateTitle=theme_settings.home_product_block_with_flash_deals_title
+  cateLink=theme_settings.home_product_block_with_flash_deals_link
+  cateLink2=theme_settings.home_product_block_with_flash_deals_link2
+  coutDown=theme_settings.home_product_block_with_flash_deals_count_down }}
+  {{{region name="special"}}} {{{region name="image_comparison"}}} {{#if
+  theme_settings.home_product_block_tab '==' 'Featured'}} {{>
+  components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=featured" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{else if
+  theme_settings.home_product_block_tab '==' 'New'}} {{>
+  components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=newest" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{else if
+  theme_settings.home_product_block_tab '==' 'Top'}} {{>
+  components/halothemes/halo-product-tab-by-category
+  data-sort-tab="?sort=bestselling" productsnew=products.new
+  title=theme_settings.home_product_block_tab-title}} {{/if}} {{{region
+  name="halo_video_banner"}}} {{{region name="halo_brands_full"}}} {{#if
+  theme_settings.home_product_block '==' 'Featured'}} {{>
+  components/products/featured products=products.featured
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'New'}} {{> components/products/new products=products.new
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'Top'}} {{> components/products/top products=products.top_sellers
+  productsnew=products.new title=theme_settings.home_product_block-title
+  block_id="halo-product-block-1"}} {{else if theme_settings.home_product_block
+  '==' 'Special'}} {{> components/halothemes/halo-product-by-category
+  cateid=theme_settings.home_product_block_id productsnew=products.new}} {{/if}}
+  {{{region name="countdown_banner"}}} {{>
+  components/halothemes/home/home-recent-posts post=blog.recent_posts}}
+  {{{region name="halo_top_reviews"}}} {{>
+  components/halothemes/home/home-icon-with-text2}} {{{region
+  name="popular_collection"}}} {{{region name="halo_policy"}}} {{{region
+  name="halo_faqs"}}} {{{region name="halo_banner"}}} {{/if}}
+  
+
+
+
+
+  <style>
+      .slick-initialized .slick-slide {
+        margin-bottom: 1.2rem;
+      }
+      .testimonials {
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      .title {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        font-size: 1.2em;
+        color: #a3a3a3;
+        margin-bottom: 30px;
+      }
+
+      .testimonial-card {
+        background-color: #f9f9f9;
+        padding: 3rem;
+        border-radius: 10px;
+        text-align: left;
+        margin: 0 10px;
+     
+      }
+.testimonial-card p{
+  text-overflow: ellipsis;
+  overflow: hidden; 
+ height: 120px;
+}
+      .stars {
+        color: gold;
+      }
+
+      .author-info {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+      }
+
+      .author-img {
+        border-radius: 50%;
+        width: 50px !important;
+        height: 50px;
+        margin-right: 15px;
+      }
+      .author-details {
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .author-details .author-name {
+        font-weight: bold;
+      }
+
+      .author-details .author-role {
+        color: #777;
+      }
+
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+      }
+
+      .slick-dots li {
+        margin: 0 5px;
+      }
+
+      .slick-dots button {
+        width: 12px;
+        height: 12px;
+        background-color: #ddd;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0;
+      }
+
+      .slick-prev::before {
+    background-image: url('https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/next.png?t=1730178604') !important;
+   transform: scaleX(-1);
+  }
+  .slick-next::before {
+    background-image: url('https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/next.png?t=1730178604') !important;
+  }
+  #black-arrow-slick .slick-prev.slick-arrow, #black-arrow-slick .slick-next.slick-arrow {
+    background-color: unset !important;
+  }
+  #black-arrow-slick .slick-prev.slick-arrow::before ,#black-arrow-slick .slick-next.slick-arrow::before{
+   height: 2rem !important;
+  }
+    </style>
+
+<section class="testimonials">
+      <div class="container">
+        <h2 class="title">Happy Clients</h2>
+        <p class="subtitle">What our customer are saying</p>
+
+        <div class="testimonial-slider slider1">
+          <div class="testimonial-card" style="background-color: #f4ece6">
+            <div class="stars">★★★★★</div>
+            <h3>Wooden Banqueting Chairs</h3>
+            <p style="color: #a3a3a3">
+              Fantastic quality! We bought these chairs for a large event, and they added a touch of elegance. Stacking them afterward was a breeze, making storage simple. Highly recommend for anyone hosting formal events.
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Ann Smith"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Matthew P.</span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background-color: #e6f1f4">
+            <div class="stars">★★★★★</div>
+            <h3>Café Tables</h3>
+            <p style="color: #a3a3a3">
+              These tables were the perfect  addition to our café.  Stylish and  sturdy, they’ve  withstood busy  weekends and still look brand  new. Great investment!.
+            </p>
+            <div class="author-info">
+              <img       
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-2.jpg.png?t=1729600054"
+                alt="Saitama One"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Emma T. </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background-color: #efe6f4">
+            <div class="stars">★★★★★</div>
+            <h3>Office Chairs </h3>
+            <p style="color: #a3a3a3">
+              Ordered a set of these office chairs for our small office, and everyone’s been so pleased. Comfortable for long hours and supportive without taking up too much space
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-1.jpg.png?t=1729600053"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Laura G.</span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color: #f4ece6">
+            <div class="stars">★★★★★</div>
+            <h3>Church Stacking Chairs
+            </h3>
+            <p style="color: #a3a3a3">
+              Ideal for our community hall! These church stacking chairs are comfortable, easy to clean, and super simple to store when not in use. Just what we needed.
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Sam R</span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color: #e6f1f4">
+            <div class="stars">★★★★★</div>
+            <h3>Conference Chairs </h3>
+            <p style="color: #a3a3a3">
+              Bought these for our training room, and they’ve held up very well. They look professional, are comfortable for long sessions, and were easy to assemble. Good purchase!
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-2.jpg.png?t=1729600054"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Holly W. </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color: #efe6f4">
+            <div class="stars">★★★★★</div>
+            <h3>Garden Chairs</h3>
+            <p style="color: #a3a3a3">
+              I got these for our outdoor seating area, and they’re perfect! They’re lightweight yet sturdy, and the weather-resistant design has kept them looking great, even with regular use.
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">James K.</span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color:#f4ece6">
+            <div class="stars">★★★★★</div>
+            <h3>Pub Chairs            </h3>
+            <p style="color: #a3a3a3">
+              These pub chairs were a great addition to our bar. They’re durable, comfy, and the classic design fits our theme perfectly. Patrons love them too!
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-1.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Sophie L.</span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color: #e6f1f4">
+            <div class="stars">★★★★★</div>
+            <h3>Clearance Table Set
+            </h3>
+            <p style="color: #a3a3a3">
+              Picked up a great deal in the clearance section! Got a sturdy table set for a fraction of the price, and it’s been a great addition to our meeting room.
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Oliver M.  </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color: #efe6f4">
+            <div class="stars">★★★★★</div>
+            <h3>School Chairs
+            </h3>
+            <p style="color: #a3a3a3">
+              Ordered these for our classrooms, and the kids find them comfortable. The chairs are lightweight and easy to move around, but also really solid. Great choice for schools!
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-1.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Bethany J.
+                </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" style="background-color:#f4ece6">
+            <div class="stars">★★★★★</div>
+            <h3>Wedding Chairs
+
+            </h3>
+            <p style="color: #a3a3a3">
+              We rented these for a wedding, and they looked fantastic! The elegant design fit the venue perfectly, and they were comfortable enough for all-day seating. Very pleased!
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Chris D.
+                </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background-color:  #e6f1f4">
+            <div class="stars">★★★★★</div>
+            <h3>  Village Hall Chairs        </h3>
+            <p style="color: #a3a3a3">
+              These were exactly what we needed for our community hall. Easy to stack and store, yet comfortable for longer events. Will be ordering more soon!
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-1.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Lucy P.  
+                </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background-color: #efe6f4">
+            <div class="stars">★★★★★</div>
+            <h3>  Folding Tables           </h3>
+            <p style="color: #a3a3a3">
+              Perfect for our event space! These folding tables are sturdy, easy to set up, and save tons of room when stored. Highly practical and great value.
+            </p>
+            <div class="author-info">
+              <img
+                src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tes-3.jpg.png?t=1729600100"
+                alt="Sara Coulton"
+                class="author-img"
+              />
+              <div class="author-details">
+                <span class="author-name">Daniel H.
+
+                </span>
+                <span class="author-role">Purchased</span>
+              </div>
+            </div>
+          </div>
+          <!-- Add more testimonial cards here if needed -->
+        </div>
+      </div>
+    </section>
+     <script>
+      $(document).ready(function () {
+        $(".slider1").slick({
+         arrows: true,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          slidesToShow: 3, 
+          slidesToScroll: 3,
+          dots: true, 
+          infinite: true, 
+          speed: 300, 
+          customPaging: function (slider, i) {
+            // Customizing the dots (optional)
+            return '<button class="slick-dot">' + (i + 1) + "</button>";
+            
+          },
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <div id="halo_instagram" class="halo-marketing-banners">
+               	<div class="halo-block halo-banners halo-banners2 padding-top-30 padding-bottom-30">
+               		<div class="container">
+               		    <div class="halo-block-header">
+               		        <h3 class="title">Image Gallery</h3>
+               		    </div>
+               		    <div class="halo-image-collection2 halo-image-instagram">
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/wooden-vs-plastic-furniture.jpg?t=1575046739" alt="Image Instagram 1" title="Image Instagram 1">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/white-folding-plastic-chairs-used-for-a-rustic-outdoor-wedding.jpeg?t=1569586327" alt="Image Instagram 2" title="Image Instagram 2">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/why-people-appreciate-a-padded-chair.jpg?t=1579270182" alt="Image Instagram 3" title="Image Instagram 3">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/sweet-ice-cream-photography-fw6noteso4c-unsplash.jpg?t=1564132480" alt="Image Instagram 4" title="Image Instagram 4">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tips-on-decorating-chairs.jpg?t=1567606919" alt="Image Instagram 5" title="Image Instagram 5">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/what-do-you-know-about-buying-furniture-for-your-event-planning-business.jpg?t=1568370619" alt="Image Instagram 6" title="Image Instagram 6">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/tips-on-decorating-chairs.jpg?t=1567606919" alt="Image Instagram 7" title="Image Instagram 7">
+               		                </a>
+               		            </div>
+               		        </div>
+               		        <div class="item">
+               		            <div class="image-collection2">
+               		                <a class="image-wrapper image-with-overlay" href="#">
+               		                    <img class="lazyload" src="https://annies-garden-light-demo.mybigcommerce.com/content/loading.svg" data-src="https://cdn11.bigcommerce.com/s-1ug2lry/images/stencil/original/image-manager/what-do-you-know-about-buying-furniture-for-your-event-planning-business.jpg?t=1568370619" alt="Image Instagram 8" title="Image Instagram 8">
+               		                </a>
+               		            </div>
+               		        </div>
+               		    </div>
+               		    <div class="halo-block-footer">
+               		        <a href="/gallery/" class="button button--primary self-btn-blue">View Gallery</a>
+               		    </div>
+               		</div>
+               	</div>
+               </div>
+               <style>
+                
+                .self-center a:hover{
+                  background-color: transparent ;
+                }
+               </style>
+               
+
+
+               <style>
+                .halo-special-block{
+  margin-top:20px;
+                }
+
+
+  </style>
+</div>
+{{/partial}} 
+{{> layout/base}}
+
